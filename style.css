@@ -1,19 +1,72 @@
+@font-face {
+    font-family: 'norse-bold';
+    src: url("./norse/Norsebold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'norse';
+    src: url("./norse/Norse.otf") format("opentype");
+}
+
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    
 }
 
 .left-side {
+    background-image: url("./hanna-lazar-NO-lCEHowSs-unsplash.jpg");
+    background-size: cover;
     width: 30%;
-    background-image: "./hanna-lazar-NO-lCEHowSs-unsplash.jpg";
+    text-align: center;
+    position: relative;
+}
+
+.logo-div {
+    background-color: #1b3a0098 ;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'norse';
+    position:absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-100%);
+}
+
+.left-side > p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);   
+    color: aliceblue;
+}
+
+#odin-logo {
+    height:60px;
 }
 
 .right-side {
     background-color: #E5E7EB;
+    width: 70%;
+    height: 100vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
 }
 
-form {
+.form {
     background-color: aliceblue;
+    box-shadow: 2px black;
+    transform: translateX(-30px);
+    padding-left: 30px;
+    width: 100%;
+}
+
+.form > form {
+    padding: 0 30px 30px 0;
 }
 
 input {
@@ -24,7 +77,21 @@ input:focus {
     border-color: rgb(79, 158, 247);
 }
 
+.log-in-div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 button {
     background-color: #596D48;
+    color: aliceblue;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: fit-content;
 }
+
+
 

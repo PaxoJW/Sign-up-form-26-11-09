@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="left-side">
-        <div>
-            <img src="./odin-lined.png" alt="Odin logo">
+        <div class="logo-div">
+            <img src="./odin-lined.png" alt="Odin logo" id="odin-logo">
             Odin
         </div>
         <p>Photo by Hanna Lazar</p>
@@ -18,15 +18,31 @@
         <p>
             This is not a real online service! You know you need 
         </p>
-        <div>
+        <div class="form">
             <p>Let's start!</p>
             <form action="post">
+                <label for="">FIRST NAME</label>
                 <input type="text">
-                <label for=""></label>
+                <label for="">LAST NAME</label>
+                <input type="text">
+                <label for="">EMAIL</label>
+                <input type="mail">
+                <label for="">PHONE NUMBER</label>
+                <input type="text">
+                <label for="">PASSWORD</label>
+                <input type="password">
+                <label for="">CONFIRM PASSWORD</label>
+                <input type="password">
             </form>
         </div>
-        <button>Create Account</button>
-        <p>Alreaddy have an account?</p><a href="">Log in</a>
+        
+        <div>
+            <button>Create Account</button>
+            <div class="log-in-div">
+                <p>Alreaddy have an account? </p>
+                <a href="">Log in</a>
+            </div>
+        </div>        
     </div>
 </body>
 </html>

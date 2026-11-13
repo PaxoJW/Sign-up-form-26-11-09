@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left-side {
+    width: 30%;
+    background-image: "./hanna-lazar-NO-lCEHowSs-unsplash.jpg";
+}
+
+.right-side {
+    background-color: #E5E7EB;
+}
+
+form {
+    background-color: aliceblue;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    border-color: rgb(79, 158, 247);
+}
+
+button {
+    background-color: #596D48;
+}
+
